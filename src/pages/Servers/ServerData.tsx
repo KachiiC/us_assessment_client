@@ -2,7 +2,6 @@ import { Button, Card, Empty, Statistic } from "antd";
 import { IServerData } from "./Server.types";
 import { ServerSockets, ServerStatus, ServerBoolean } from "./ServerComponents";
 import ServerWorkersTable from "./ServerWorkersTable";
-import { useDataFetch } from "../../services/dataFetch";
 import { useAppContext } from "../../context/useAppContext";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
